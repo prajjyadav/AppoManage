@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.prajjwal_ubuntu.appomanage.AddNewAppo">
+
+
+    <EditText
+        android:id="@+id/appoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/appoDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/appoTitle"
+        android:layout_below="@+id/appoTitle"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="date" />
+
+    <EditText
+        android:id="@+id/appoTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="time"
+        android:layout_below="@+id/appoDate"
+        android:layout_alignStart="@+id/appoDate" />
+
+    <EditText
+        android:id="@+id/appoDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/appoTime"
+        android:layout_below="@+id/appoTime"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Description" />
+
+    <Button
+        android:id="@+id/appoSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appoDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Send >>" />
+</RelativeLayout>
