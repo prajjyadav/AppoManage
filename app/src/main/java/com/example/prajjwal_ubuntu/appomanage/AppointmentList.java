@@ -121,14 +121,14 @@ public class AppointmentList extends AppCompatActivity {
 
                 }
 
-                Collections.sort(appoList, new Comparator() {
-                    @Override
-                    public int compare(Object o1, Object o2) {
-                        Appointment a1 = (Appointment) o1;
-                        Appointment a2 = (Appointment) o2;
-                        return a1.getDate().compareToIgnoreCase(a2.getDate());
-                    }
-                });
+//                Collections.sort(appoList, new Comparator() {
+//                    @Override
+//                    public int compare(Object o1, Object o2) {
+//                        Appointment a1 = (Appointment) o1;
+//                        Appointment a2 = (Appointment) o2;
+//                        return a1.getDate().compareToIgnoreCase(a2.getDate());
+//                    }
+//                });
 
 //                Admin a =new Admin("a","sd","sd","sd","sd","sd","sd");
 //                adminlist.add(a);
